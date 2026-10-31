@@ -1,4 +1,5 @@
 # SDET Portfolio — Playwright (JavaScript): UI, API & AI Testing
+![tests](https://github.com/upal-patel/sdet-portfolio/actions/workflows/ci.yml/badge.svg)
 
 One Playwright project tests three layers with the same runner, fixtures, reports and CI:
 
@@ -8,7 +9,6 @@ One Playwright project tests three layers with the same runner, fixtures, report
 | `api` | `tests/api/` | [Restful Booker](https://restful-booker.herokuapp.com) API: auth, CRUD, JSON schema, negative cases, response time |
 | `ai` | `tests/ai/` | An LLM claim-note summariser: schema, golden set, pass rate, LLM-as-judge, prompt injection |
 
-Plus `python-challenges/`: Python coding problems with pytest tests.
 
 ## Run locally
 
