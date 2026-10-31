@@ -1,0 +1,19 @@
+{
+  "name": "sdet-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright (JavaScript) UI, API and AI eval tests in one project",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "test:ai": "playwright test --project=ai",
+    "test:smoke": "playwright test --grep @smoke",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "ajv": "^8.17.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

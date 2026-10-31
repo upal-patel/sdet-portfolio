@@ -1,0 +1,17 @@
+[
+  {
+    "id": "auto-01",
+    "note": "Customer reports a rear-end collision on Hwy 401. Policy POL-20481, incident on 2026-09-14. Repair estimate $4,850. Call back at 416-555-0199.",
+    "expected": {"policy_number": "POL-20481", "claim_type": "auto", "incident_date": "2026-09-14", "amount_claimed": 4850}
+  },
+  {
+    "id": "home-01",
+    "note": "Basement flooded after heavy rain. Policy POL-77310. Date of loss 2026-08-02. Contractor quote $12,300 for drywall and flooring.",
+    "expected": {"policy_number": "POL-77310", "claim_type": "home", "incident_date": "2026-08-02", "amount_claimed": 12300}
+  },
+  {
+    "id": "other-01",
+    "note": "Client asking about coverage for a lost laptop while travelling. Policy POL-55002. No date given yet. Email jane.doe@example.com.",
+    "expected": {"policy_number": "POL-55002", "claim_type": "other", "incident_date": null, "amount_claimed": null}
+  }
+]
